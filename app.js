@@ -22,7 +22,6 @@ toggleBtn.addEventListener('click', () => {
     chev.style.transform = sidebar.classList.contains('collapsed') ? 'rotate(180deg)' : 'rotate(0deg)';
 });
 
-
 // Close overlay on resize
 window.addEventListener('resize', () => {
     if (!isMobile()) { closeSidebar(); sidebar.classList.remove('collapsed'); chev.style.transform = 'rotate(0deg)'; }
